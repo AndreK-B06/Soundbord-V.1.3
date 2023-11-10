@@ -1,0 +1,82 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* --------------
+  !!! Root !!!
+--------------- */
+:root {
+  --dark-purple: #270722;
+  --platinum: #d7dedc;
+  --Blue: #b2dafa;
+  --Orage: #f39508;
+  --black: #202020;
+  --red: rgba(255, 0, 0, 0.459) (226, 17, 17);
+}
+/* --------------
+!!! Body !!!
+--------------- */
+body {
+  background-color: var(--dark-purple);
+  max-width: 375px;
+  margin: auto auto;
+  padding-top: 50px;
+  text-align: center;
+}
+/* --------------
+!!! Text !!!
+--------------- */
+button {
+  color: var(--Orage);
+}
+header,
+footer {
+  color: var(--platinum);
+  margin-bottom: 20px;
+}
+#stop {
+  color: var(--red);
+}
+h1 {
+  margin-bottom: 20px;
+}
+p {
+  margin: 20px 10px;
+}
+/* --------------
+!!! Hedder !!!
+--------------- */
+header {
+  border: none;
+}
+
+/* --------------
+!!! Main !!!
+--------------- */
+#soundbord {
+  border: none --black;
+  justify-content: space-evenly;
+}
+/* --------------
+!!! Fotter !!!
+--------------- */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  border: none;
+  margin-top: 500px;
+}
+/* --------------
+!!! Button !!!
+--------------- */
+button {
+  border-radius: 30px;
+  padding: 30px;
+  background-color: var(--Blue);
+  font-size: 20px;
+  font-weight: bold;
+  margin: 3px;
+  text-shadow: var(--dark-purple) 1px 1px 0px;
+}
