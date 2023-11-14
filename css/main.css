@@ -54,7 +54,10 @@ h2 {
   padding-bottom: 5px;
 }
 p {
-  margin: 20px 10px;
+  margin: 5px 10px;
+}
+.padding-bottom {
+  padding-bottom: 10px;
 }
 button {
   font-size: 20px;
@@ -92,7 +95,6 @@ aside {
   margin-inline: 20px;
   display: flex;
   justify-content: center;
-  padding-bottom: 10px;
 }
 
 /* --------------
@@ -103,7 +105,7 @@ footer {
   justify-content: center;
   align-items: start;
   border: none;
-  margin-top: 500px;
+  margin-top: 40px;
 }
 /* --------------
 !!! Button !!!
